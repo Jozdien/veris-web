@@ -1,4 +1,4 @@
-import styles from './text.module.css'
+import styles from './styles.module.css'
 export default function Text({ string }) {
   return (
       <div className={styles.container}>
