@@ -1,0 +1,14 @@
+.container {
+    height: 100vh;
+    background-color: #050608;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+.gap {
+  flex: 1;
+}

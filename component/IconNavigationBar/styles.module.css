@@ -1,7 +1,3 @@
 .container {
-
-  }
-
-.image {
-    background: #01C5C4;
+    flex: 1;
   }

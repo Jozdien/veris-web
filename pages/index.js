@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import {TextHeading, TextSubHeading, TextTitle, TextSmall} from '../component/Text/'
+import {TextHeading, TextSubHeading, TextTitle, TextSmall} from '../component/Text'
+import NavigationBar from '../component/SideNavigationBar'
 
 export default function Home() {
   return (
@@ -11,20 +12,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div id="left" className={styles.column}>
-            <div className={styles.top-left}>
-              <TextSmall string={"Karma Veris"}/>
+        <NavigationBar/>
+        <div className={styles.rightColumn}>
+            <div className={styles.topRight}>
+              <TextTitle string={"Karma Veris3"}/>
             </div>
             <div className={styles.bottom}>
-              <TextSmall string={"Karma Veris"}/>
-            </div>
-        </div>
-        <div id="right" className={styles.column}>
-            <div className={styles.top-right}>
-              <TextTitle string={"Karma Veris"}/>
-            </div>
-            <div className={styles.bottom}>
-              <TextSmall string={"Karma Veris"}/>
+              <TextSmall string={"Karma Veris4"}/>
             </div>
         </div>
       </main>
