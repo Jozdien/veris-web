@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <NavigationBar/>
+        <NavigationBar selected="home"/>
         <div className={styles.rightColumn}>
             <div className={styles.topRight}>
               <div className={styles.topRight1}/>

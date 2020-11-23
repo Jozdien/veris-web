@@ -1,14 +1,26 @@
 .container {
-    height: 100vh;
-    background-color: #050608;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-sizing: border-box;
-  }
+  height: 100vh;
+  background-color: #050608;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.topspace {
+  flex: 2;
+}
 
 .gap {
+  flex: 2;
+}
+
+.bottomspace {
+  flex: 20;
+}
+
+.iconbox {
   flex: 1;
 }
