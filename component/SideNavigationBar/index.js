@@ -5,35 +5,35 @@ export default function NavigationBar({selected}) {
     <div className={styles.container}>
       <div className={styles.topspace}></div>
       <a href="404" className={styles.iconbox}>
-        <Icon imageSource="/logo" id="vercel"/>
+        <Icon imageSource="/icons/logo" id="vercel"/>
       </a>
       <div className={styles.gap}></div>
       <a href="404" className={styles.iconbox}>
-        <Icon imageSource="/home" id="home" selected={selected}/>
+        <Icon imageSource="/icons/home" id="home" selected={selected}/>
       </a>
       <div className={styles.gap}></div>
       <a href="404" className={styles.iconbox}>
-        <Icon imageSource="/gradcap" id="marks_attendance" selected={selected}/>
+        <Icon imageSource="/icons/gradcap" id="marks_attendance" selected={selected}/>
       </a>
       <div className={styles.gap}></div>
       <a href="404" className={styles.iconbox}>
-        <Icon imageSource="/rupee" id="fees" selected={selected}/>
+        <Icon imageSource="/icons/rupee" id="fees" selected={selected}/>
       </a>
       <div className={styles.gap}></div>
       <a href="404" className={styles.iconbox}>
-        <Icon imageSource="/calendar" id="events" selected={selected}/>
+        <Icon imageSource="/icons/calendar" id="events" selected={selected}/>
       </a>
       <div className={styles.gap}></div>
       <a href="404" className={styles.iconbox}>
-        <Icon imageSource="/blog" id="blogs" selected={selected}/>
+        <Icon imageSource="/icons/blog" id="blogs" selected={selected}/>
       </a>
       <div className={styles.gap}></div>
       <a href="404" className={styles.iconbox}>
-        <Icon imageSource="/news" id="news" selected={selected}/>
+        <Icon imageSource="/icons/news" id="news" selected={selected}/>
       </a>
       <div className={styles.gap}></div>
       <a href="404" className={styles.iconbox}>
-        <Icon imageSource="/bell" id="notifications" selected={selected}/>
+        <Icon imageSource="/icons/bell" id="notifications" selected={selected}/>
       </a>
       <div className={styles.bottomspace}></div>
     </div>
