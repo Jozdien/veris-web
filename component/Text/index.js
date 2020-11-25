@@ -1,31 +1,31 @@
 import styles from './styles.module.css'
 export default function Text({ string, type }) {
-    if (type == 'title')
-    {
-        return (
-            <div className={styles.container}>
-                <p className={styles.textTitle}>{string}</p>
-            </div>
-            )
-    }
+  if (type == 'title')
+  {
+    return (
+      <div className={styles.container}>
+        <p className={styles.textTitle}>{string}</p>
+      </div>
+    )
+  }
 
-    else if (type == 'heading')
-    {
-        return (
-            <div className={styles.container}>
-                <p className={styles.textHeading}>{string}</p>
-            </div>
-            )
-    }
+  else if (type == 'heading')
+  {
+    return (
+      <div className={styles.container}>
+        <p className={styles.textHeading}>{string}</p>
+      </div>
+    )
+  }
 
-    else if (type == 'sub-heading')
-    {
-        return (
-            <div className={styles.container}>
-                <p className={styles.textSubHeading}>{string}</p>
-            </div>
-            )
-    }
+  else if (type == 'sub-heading')
+  {
+    return (
+      <div className={styles.container}>
+        <p className={styles.textSubHeading}>{string}</p>
+      </div>
+    )
+  }
 
     else if (type == 'small')
     {
@@ -53,5 +53,4 @@ export default function Text({ string, type }) {
             </div>
             )
     }
-
 }

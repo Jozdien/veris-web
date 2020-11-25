@@ -13,7 +13,7 @@
   height: 100vh;
   background-color: #F0F2F4;  
   display: flex;
-  flex: 15;
+  flex: 21;
   flex-direction: column;  /*places the left and right headers above the bottom content*/
 }
 
