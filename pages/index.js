@@ -35,7 +35,7 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.bottomRight}>
-              <div className={styles.bottomRightSub}>
+              <div className={styles.bottomRightSubTop}>
                 <div className={styles.bottomRightSubItems}>
                   <Text type={"title"} string={"College of Engineering Trivandrum"}/>
                 </div>
@@ -48,6 +48,10 @@ export default function Home() {
                 <div className={styles.bottomRightSubItems}>
                   <Text type={"title"} string={"BTech"}/>
                 </div>
+              </div>
+
+              <div className={styles.bottomRightSubBottom}>
+                <Text type={"bold"} string={"My Classes"}/>
               </div>
             </div>
         </div>

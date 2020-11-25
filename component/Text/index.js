@@ -36,6 +36,15 @@ export default function Text({ string, type }) {
             )
     }
 
+    else if (type == 'bold')
+    {
+        return (
+            <div className={styles.container}>
+                <p className={styles.textBold}>{string}</p>
+            </div>
+            )
+    }
+
     else
     {
         return (
