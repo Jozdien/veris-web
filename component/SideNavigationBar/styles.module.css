@@ -1,5 +1,6 @@
 .container {
   height: 100vh;
+  min-width: 75px;
   background-color: #050608;
   flex: 1;
   display: flex;
@@ -11,10 +12,12 @@
 
 .topspace {
   flex: 2;
+  min-height: 25px;
 }
 
 .gap {
   flex: 2;
+  min-height: 25px;
 }
 
 .bottomspace {

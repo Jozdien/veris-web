@@ -1,47 +1,86 @@
 import styles from './styles.module.css'
 export default function Text({ string, type }) {
-  if (type == 'title')
+  if (type == 'heading')
   {
     return (
-      <div className={styles.container}>
-        <p className={styles.textTitle}>{string}</p>
-      </div>
-    )
-  }
-
-  else if (type == 'heading')
-  {
-    return (
-      <div className={styles.container}>
-        <p className={styles.textHeading}>{string}</p>
-      </div>
+      <span className={styles.heading}>{string}</span>
     )
   }
 
   else if (type == 'sub-heading')
   {
     return (
-      <div className={styles.container}>
-        <p className={styles.textSubHeading}>{string}</p>
-      </div>
+      <span className={styles.subHeading}>{string}</span>
     )
   }
 
-  else if (type == 'small')
+  else if (type == 'section-selected')
   {
     return (
-      <div className={styles.container}>
-        <p className={styles.textSmall}>{string}</p>
-      </div>
+      <p className={styles.sectionSelected}>{string}</p>
+    )
+  }
+
+  else if (type == 'section-unselected')
+  {
+    return (
+      <p className={styles.sectionUnselected}>{string}</p>
+    )
+  }
+
+  else if (type == 'head')
+  {
+    return (
+      <p className={styles.head}>{string}</p>
+    )
+  }
+
+  else if (type == 'title')
+  {
+    return (
+      <p className={styles.title}>{string}</p>
+    )
+  }
+
+  else if (type == 'box-title')
+  {
+    return (
+      <p className={styles.boxTitle}>{string}</p>
+    )
+  }
+
+  else if (type == 'box-subtitle')
+  {
+    return (
+      <p className={styles.boxSubTitle}>{string}</p>
+    )
+  }
+
+  else if (type == 'box-next')
+  {
+    return (
+      <p className={styles.boxNext}>{string}</p>
+    )
+  }
+
+  else if (type == 'box-present')
+  {
+    return (
+      <p className={styles.boxPresent}>{string}</p>
+    )
+  }
+
+  else if (type == 'box-absent')
+  {
+    return (
+      <p className={styles.boxAbsent}>{string}</p>
     )
   }
 
   else
   {
     return (
-      <div className={styles.container}>
-        <p className={styles.textError}>Invalid Text</p>
-      </div>
+      <p className={styles.error}>Invalid Text</p>
     )
   }
 }

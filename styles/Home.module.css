@@ -2,68 +2,83 @@
   min-height: 100vh;
 }
 
+/* Layer 2 */
+
 .main {
-    height: 100%; 
-    overflow: hidden;  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
-    margin: 0px;  /*removes default style*/
-    display: flex;  /*enables flex content for its children*/
+  height: 100%; 
+  overflow: hidden;  /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
+  margin: 0px;  /*removes default style*/
+  display: flex;  /*enables flex content for its children*/
 }
+
+/* Layer 3 */
 
 .rightColumn {
   height: 100vh;
-  background-color: #F0F2F4;  
   display: flex;
   flex: 21;
   flex-direction: column;  /*places the left and right headers above the bottom content*/
 }
 
-.topRight {
+/* Layer 4 */
+
+.body {
   flex: 1;
   display: flex;
-  margin-left: 15%;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.topRight1 {
-  flex: 1;
-}
-
-.topRight2 {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-}
-
-.topRight2SubChosen {
-  flex-direction: row;
-  margin-right: 1vh;
-  border-bottom: 3px solid #01C5C4;
-}
-
-.topRight2Sub {
-  flex-direction: row;
-  margin-right: 1vh;
-}
-
-.bottomRight {
-  flex: 3;
-  overflow-y: auto;  /*adds scroll to this container*/
-  background-color: white;
-}
-
-.bottomRightSub {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
   overflow-y: auto;  /*adds scroll to this container*/
-  margin-left: 15%;
 }
 
-.bottomRightSubItems {
+/* Layer 4 */
+
+.leftindent {
+  width: 8.3vw;
+}
+
+.bodyCenter {
+  width: 78.85vw;
+}
+
+.rightIndent {
+  width: 8.3vw;
+}
+
+/* Layer 5 */
+
+.bodyHead {
   flex: 1;
+  margin-top: 1%;
+  width: 48%;
+  display: flex;
+  flex-direction: row;
+}
+
+.headLine {
+  color: #E5E5E5;
+  width: 50%;
+  background-color: #E5E5E5;
+  height: 1px;
+}
+
+.bodyTitle {
+
+}
+
+.classes {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Layer 6 */
+
+.bodyHeadItemOne {
+  flex: 5;
+}
+
+.bodyHeadItemTwo {
+  flex: 1;
+  padding-left: 2%;
 }
 
 @media (max-width: 600px) {
