@@ -83,4 +83,3 @@ export default function Text({ string, type }) {
       <p className={styles.error}>Invalid Text</p>
     )
   }
-}
