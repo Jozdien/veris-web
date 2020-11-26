@@ -1,4 +1,4 @@
-This is a website for college administration, built in NextJS, a React framework.  The website design illustrates features for profile overview, along with the scope for adding attendance, marking, fees, events, etc.
+This is a website framework for college administration called Veris, built in NextJS, a React framework.  The website design illustrates features for profile overview, along with the scope for adding attendance, marking, fees, events, etc.
 
 ## How to Run
 
