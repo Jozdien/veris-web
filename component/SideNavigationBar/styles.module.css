@@ -1,15 +1,7 @@
-.img {
-  height: 75%;
-  width: 75%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} /*Remove*/
-
 .container {
   height: 100vh;
   min-width: 75px;
-  background-color: #171717; /* #050608 */
+  background-color: #050608;
   flex: 1;
   display: flex;
   justify-content: center;
