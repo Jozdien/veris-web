@@ -1,6 +1,6 @@
 .container {
   height: 28vh;
-  background-color: #F0F2F4;
+  background-color: #CECCBF; /* #F0F2F4 */
 	display: flex;
 	flex-direction: row;
 }
@@ -51,8 +51,8 @@
 }
 
 .selectedLine {
-	color: #01C5C4;
-	background-color: #01C5C4;
+	color: #9DA240; /* #01C5C4 */
+	background-color: #9DA240;
 	height: 2px;
 }
 
